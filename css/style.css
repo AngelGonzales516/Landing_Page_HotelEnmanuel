@@ -1,0 +1,90 @@
+header div.hero {
+    background-image: url("/Img/habitacion1.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    
+    text-align:center;
+  
+  }
+  header div.hero div{
+     min-height: 50vh;
+  }
+
+  @media (min-width: 768px) {
+    header div.hero {
+        background-image: url("../img/habitacion1.jpg");
+        min-height: 80vh;
+    }
+
+    .ml-1{
+        margin-left: 2rem;
+    }
+  
+    .ml-2{
+      margin-left: 3rem;
+  }
+  
+    .ml-3{
+      margin-left: 10rem;
+  }
+  main div.contenedor div.contenedorhijo1 img {
+    width: 15rem;
+    height: 15rem;
+    Margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+    form{
+      font-size:2rem !important;
+    }
+    .title{
+      font-size:6rem;
+      text-shadow: 3px 3px 3px #fff;
+      background-color: rgba(255,255,255,0.3);
+      padding:0.7em;
+      width:100%;
+      
+    }
+  }
+
+  body {
+      background-color:  #ededed;
+  }
+
+  .ml-1{
+      margin-left: 0rem;
+  }
+
+  .ml-2{
+    margin-left: 0rem;
+}
+
+  .ml-3{
+    margin-left: 1rem;
+}
+
+  @media (min-width: 992px) {
+    header div.hero {
+        background-image: url("../img/habitacion1.jpg");
+    }
+     .title{
+      max-width:1024px;
+      margin:1em auto;
+      
+    }
+    .ml-1{
+        margin-left: 0.5rem;
+    }
+  
+    .ml-2{
+      margin-left: 3rem;
+  }
+  
+    .ml-3{
+      margin-left: 1rem;
+  }
+
+  }
